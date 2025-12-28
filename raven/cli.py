@@ -1,5 +1,6 @@
 import click
 from raven.commands.watch import watch
+from raven.commands.gather import gather
 
 @click.group()
 def cli():
@@ -7,6 +8,7 @@ def cli():
     pass
 
 cli.add_command(watch)
+cli.add_command(gather)
 
 if __name__ == "__main__":
     cli()
