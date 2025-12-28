@@ -1,0 +1,8 @@
+# Ignore virtual environment junk
+__pycache__/
+*.pyc
+.env
+.venv/
+Lib
+Scripts
+raven.egg-info/

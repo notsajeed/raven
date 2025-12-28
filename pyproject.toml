@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raven"
+version = "0.1.0"
+description = "A semantic CLI wrapper around Git"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["click"]
+
+authors = [
+  { name = "Sajeed", email = "sajeed725333@gmail.com" }
+]
+
+[project.scripts]
+raven = "raven.cli:cli"
