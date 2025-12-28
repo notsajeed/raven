@@ -6,3 +6,6 @@ __pycache__/
 Lib
 Scripts
 raven.egg-info/
+odin_raven.egg-info
+dist
+.gitignore
